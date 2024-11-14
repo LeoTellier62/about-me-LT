@@ -76,11 +76,20 @@ nav {
 
 /*MAIN*/
 main {
-    flex: 1; /*prendre toute la place dispo*/
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 /*MAIN INDEX*/
+
+#img-index {
+    border: 6px solid #372e29;
+    border-radius: 200px;
+    padding: 20px;
+    background-color: #ecb939;
+}
 #img-index img{
     width: 300px;
     height: 300px;
