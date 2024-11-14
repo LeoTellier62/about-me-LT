@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     background-color:#726255;
     font-family: 'Risque', sans-serif;
+    
 }
 
 /*HEADER*/
@@ -23,6 +24,11 @@ header {
     background-size: cover;
     background-position: center center;
     border-radius: 10px 10px 0px 0px;
+}
+
+#banner img {
+    width: 30%;
+    min-width: 300px;
 }
 
 #text-header {
@@ -86,7 +92,7 @@ main {
     white-space: pre-line;
 }
 
-
+/*MON PROJET*/
 
 /*MAIN PASSIONS*/
 /*Permet de faire une image en 300*300 px cliquable sans changer ses dimensions. Juste sa taille.*/
