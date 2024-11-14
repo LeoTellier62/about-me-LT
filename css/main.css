@@ -73,7 +73,8 @@ main {
 /*FOOTER*/
 footer {
     background-color: 	#372e29;
-    color: white;
+    color: #ecb939;
     text-align: center;
     padding: 1px 0;
+    border-radius: 10px;
   }
