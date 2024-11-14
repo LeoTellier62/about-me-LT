@@ -65,10 +65,13 @@ nav {
     box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
 }
 
+
+
 /*MAIN*/
 main {
     flex: 1;
 }
+
 
 /*MAIN INDEX*/
 #img-index img{
@@ -76,22 +79,66 @@ main {
     height: 300px;
 }
 
+
+
 /*MAIN PASSIONS*/
+#main-passions {
+    text-align: center;
+    position: center;
+}
+/*Permet de faire une image en 300*300 px cliquable sans changer ses dimensions. Juste sa taille.*/
+.fig-passion {
+    width: 300px;
+}
 #main-passions figure {
-    width: 300px;           
-    height: 300px;         
-    overflow: hidden;      
+    width: 300px;           /* Largeur fixe du fig en 300px */
+    height: 300px;          /* Hauteur fixe du fig 300px */
+    overflow: hidden;       /* Masque les parties de l'image qui débordent */
     position: relative;
+    display: flex;
+    align-items: center;    /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
     border: 4px solid 	#372e29;
     border-radius: 10px;
 }
 
 #main-passions img{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centre l'image dans le conteneur */
+    position: absolute; /*centre l'image*/
 }
+
+/*Permettra de mettre le figcaption en avant*/
+#main-passions figcaption {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    z-index: +1;
+    color: #ecb939;
+    background-color: #372e29;
+}
+
+/*Ajustement de taille des images dans passions*/
+#jeu-vid {
+    scale: 0.5;
+}
+
+#jeu-role {
+    scale:0.3;
+}
+
+#jap {
+    scale: 0.33;
+}
+
+#film {
+    scale: 0.4;
+}
+
+#cuisine {
+    scale: 0.3;
+}
+
 
 /*FOOTER*/
 footer {
