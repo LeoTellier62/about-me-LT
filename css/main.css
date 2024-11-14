@@ -70,6 +70,12 @@ main {
     flex: 1;
 }
 
+/*MAIN INDEX*/
+#img-index img{
+    width: 300px;
+    height: 300px;
+}
+
 /*FOOTER*/
 footer {
     background-color: 	#372e29;
