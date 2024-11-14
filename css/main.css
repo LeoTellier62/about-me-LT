@@ -69,7 +69,7 @@ nav {
 
 /*MAIN*/
 main {
-    flex: 1;
+    flex: 1; /*prendre toute la place dispo*/
 }
 
 
@@ -77,6 +77,8 @@ main {
 #img-index img{
     width: 300px;
     height: 300px;
+    border: 4px solid 	#372e29;
+    border-radius: 10px;
 }
 
 
@@ -102,8 +104,9 @@ main {
     border-radius: 10px;
 }
 
+/*centre l'image*/
 #main-passions img{
-    position: absolute; /*centre l'image*/
+    position: absolute; 
 }
 
 /*Permettra de mettre le figcaption en avant*/
