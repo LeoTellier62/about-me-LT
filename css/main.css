@@ -3,9 +3,11 @@
     src: url('../font/Risque-Regular.ttf') format('truetype');
 }
 
+/*BODY*/
 body {
     display: flex;
     flex-direction: column;
+    text-align: center;
     min-height: 100vh;
     background-color:#726255;
     font-family: 'Risque', sans-serif;
@@ -31,7 +33,6 @@ header {
 }
 
 /*NAV*/
-
 nav {
     background-image: url('../img/bg-banner.jpg');
     background-size: cover;
@@ -81,13 +82,13 @@ main {
     border-radius: 10px;
 }
 
+#desc-metier {
+    white-space: pre-line;
+}
+
 
 
 /*MAIN PASSIONS*/
-#main-passions {
-    text-align: center;
-    position: center;
-}
 /*Permet de faire une image en 300*300 px cliquable sans changer ses dimensions. Juste sa taille.*/
 .fig-passion {
     width: 300px;
