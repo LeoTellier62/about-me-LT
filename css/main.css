@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'Risque'; 
+    src: url('../font/Risque-Regular.ttf') format('truetype');
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color:#726255;
+    font-family: 'Risque', sans-serif;
 }
 
 /*HEADER*/
@@ -10,13 +16,36 @@ header {
     text-align: center;
 }
 
+#banner {
+    background-image: url('../img/bg-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#text-header {
+    color: #ecb939;
+    background-color: 	#372e29;
+    padding: 1px;
+    font-size: 20px;
+}
+
 /*NAV*/
+
+nav {
+    background-image: url('../img/bg-banner.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
 .but-nav img {
     border: 2px solid 	#372e29;
     border-radius: 40px;
     padding: 5px;
     margin : 10px;
     box-shadow: 0 0 0 5px 	#726255, 0 0 0 10px 	#372e29;
+    background-color: 	#726255;
 }
 
 .but-nav-acti img {
@@ -25,6 +54,7 @@ header {
     padding: 5px;
     margin : 10px;
     box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
+    background-color: 	#726255;
 }
 
 .but-nav img:hover {
