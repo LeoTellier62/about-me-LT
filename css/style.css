@@ -313,26 +313,6 @@ main {
     background-color: #372e29;
 }
 
-/*Ajustement de taille des images dans passions*/
-#jeu-vid {
-    scale: 0.5;
-}
-
-#jeu-role {
-    scale:0.3;
-}
-
-#jap {
-    scale: 0.33;
-}
-
-#film {
-    scale: 0.4;
-}
-
-#cuisine {
-    scale: 0.3;
-}
 
 /*organisation des passions*/
 #container-passions {
