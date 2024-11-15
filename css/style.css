@@ -208,6 +208,14 @@ main {
     min-width: 300px;
 }
 
+#ontainer-connais table, td, th {
+    border: 1px solid;
+    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
 
 /*MON PROJET*/
 #job-h1 {
