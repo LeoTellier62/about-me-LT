@@ -205,9 +205,48 @@ main {
     width: 30%;
     min-width: 300px;
 }
+
+
 /*MON PROJET*/
+#job-h1 {
+    background-color: #372e29;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
+    font-size: 50px;
+    color: #ecb939;
+    min-width: 300px;
+}
+
 #desc-metier {
     white-space: pre-line;
+    border-radius: 10px;
+    padding: 20px;
+    margin : 30px;
+    background-color: #ecb939;
+    box-shadow: 0 0 0 5px 	#372e29, 0 0 0 10px 	#ecb939;
+    font-size: 20px;
+    white-space: pre-line;
+    color : #372e29;
+    min-width: 300px;
+}
+
+#interet {
+    background-color: #372e29;
+    border-radius: 10px;
+    margin: 30px auto 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
+    font-size: 20px;
+    color: #ecb939;
+    width: 40%;
+    min-width: 300px;
+    justify-items: center;
+}
+
+#liste-interet {
+    text-align: left;
 }
 
 /*MAIN PASSIONS*/
