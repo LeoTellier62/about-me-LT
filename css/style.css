@@ -35,7 +35,7 @@ header {
     color: #ecb939;
     background-color: 	#372e29;
     padding: 1px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /*NAV*/
@@ -84,8 +84,18 @@ main {
 
 /*MAIN INDEX*/
 
+#index-h1 {
+    background-color: #372e29;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
+    font-size: 50px;
+    color: #ecb939;
+}
+
 #img-index {
-    border: 6px solid #372e29;
+    box-shadow: 0 0 0 5px 	#372e29, 0 0 0 10px 	#ecb939;
     border-radius: 200px;
     padding: 20px;
     background-color: #ecb939;
@@ -97,11 +107,31 @@ main {
     border-radius: 10px;
 }
 
-#desc-metier {
+#nom-prenom {
+    background-color: #372e29;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
+    font-size: 20px;
+    white-space: pre-line;
+    color: #ecb939;
+}
+#presentation {
+    border-radius: 10px;
+    padding: 20px;
+    margin : 30px;
+    background-color: #ecb939;
+    box-shadow: 0 0 0 5px 	#372e29, 0 0 0 10px 	#ecb939;
+    font-size: 20px;
     white-space: pre-line;
 }
 
+
 /*MON PROJET*/
+#desc-metier {
+    white-space: pre-line;
+}
 
 /*MAIN PASSIONS*/
 /*Permet de faire une image en 300*300 px cliquable sans changer ses dimensions. Juste sa taille.*/
