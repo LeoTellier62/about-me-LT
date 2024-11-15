@@ -92,6 +92,7 @@ main {
     box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
     font-size: 50px;
     color: #ecb939;
+    min-width: 300px;
 }
 
 #img-index {
@@ -99,6 +100,7 @@ main {
     border-radius: 200px;
     padding: 20px;
     background-color: #ecb939;
+    min-width: 320px;
 }
 #img-index img{
     width: 300px;
@@ -116,6 +118,7 @@ main {
     font-size: 20px;
     white-space: pre-line;
     color: #ecb939;
+    min-width: 300px;
 }
 
 #presentation {
@@ -127,6 +130,7 @@ main {
     font-size: 20px;
     white-space: pre-line;
     color : #372e29;
+    min-width: 300px;
 }
 
 /*MAIN ABOUT*/
@@ -138,6 +142,7 @@ main {
     box-shadow: 0 0 0 5px 	#ecb939, 0 0 0 10px 	#372e29;
     font-size: 50px;
     color: #ecb939;
+    min-width: 300px;
 }
 
 /*container des competences pour les mettres cote à cote*/
@@ -159,6 +164,8 @@ main {
     justify-items: center;
     width: 48%;
     margin-right: 3px;
+    min-width: 300px;
+    margin : 10px 0px 10px 0px;
 }
 
 #comp-op {
@@ -176,6 +183,8 @@ main {
     justify-items: center;
     width: 48%;
     margin-left: 3px;
+    min-width: 300px;
+    margin : 10px 0px 10px 0px;
 }
 
 #comp-co {
@@ -194,6 +203,7 @@ main {
     color: #ecb939;
     justify-items: center;
     width: 30%;
+    min-width: 300px;
 }
 /*MON PROJET*/
 #desc-metier {
